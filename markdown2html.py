@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 """
 A script that converts a Markdown file to HTML.
-
-Usage: ./markdown2html.py <input_file> <output_file>
-- The first argument is the name of the Markdown file.
-- The second argument is the name of the output HTML file.
 """
 
 import sys
@@ -97,4 +93,4 @@ if __name__ == "__main__":
                 html.write("</ol>\n")
             if paragraph:
                 html.write("</p>\n")
-    exit(0)
+    exit (0)
